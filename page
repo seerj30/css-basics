@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head><title>CSS</title>
+	<style>
+	a:link {color: lightgreen;background-color:black;text-decoration:none;}
+	a:visited {color: purple;background-color:yellow;text-decoration:none;}
+	a:hover {color: pink;background-color:maroon;text-decoration:underline;}
+	a:active {color: black;background-color:red;text-decoration:underline;}
+	ul{list-style-image:url('Romania.gif');}
+	div.text{background-color:lightblue;margin:30px;border:10px dotted green}
+	p.one{border-style: solid dotted double dashed;border-color:blue;letter-spacing:20px}
+	table,td,th{border: 2px solid green;}
+	table.one{border-collapse:collapse;}
+	h1.hidden{visibility:hidden;}
+	h2.hidden{display:none;}
+	p.fix{position:fixed;top:10px;right:10px;color:blue;}
+	img{float:left;}
+	.thumbnail{float:right;width:110px;height:90px;margin:5px;}
+	.center{width:70%;background-color:aqua;margin-right:auto;margin-left:auto}
+	p.two::first-line{color:blue;font-variant:small-caps;}
+	p.two::first-letter{color:red;font-size: xx-large;}
+	::-moz-selection {color: red;background: yellow;} /* Pt FIREFOX */
+	::selection {color: red;background: yellow;}
+	img.trans:hover{opacity:0.4;}
+	img.trans:{opacity:1.0;}
+#l:before, #r:before{content:"";width:730px;height:1px}
+#l:before{float:right;}
+#r:before{float:left;}
+#l,#r{width:50%;}
+	</style>
+	</head>
+	<body>
+		<p>Acest <a href="www.google.com">Hyperlink</a> este subliniat doar daca este tinut cursorul pe el. <p>
+		<ul>
+			<li>Horea</li>
+			<li>Cloșca</li>
+			<li>Crișan</li>
+		</ul>
+		<div class="text">
+			Gigel are mere si Oana are pere	<br>
+			sadsadsada <br>
+			dsadasdsadasdafwa <br>
+			dsadasdafewgaewrgewa	<br>
+			dwfgwergwerhwerge <br>
+			fioejf0eiwoj <br>
+		</div>
+		<p class="one" align=center ><font size=8>Sergiu</font></p>
+		<center><table class="one">
+			<tr>
+				<th>First Name</th>
+				<th>Secound Name</th>
+			</tr>
+			<tr>
+				<td>Mihai</td>
+				<td>Costrea</td>
+			</tr>
+			<tr>
+				<td>Gigel</td>
+				<td>Frone</td>
+			</tr>
+		</table></center>
+<br>
+			<center><table>
+			<tr>
+				<th>First Name</th>
+				<th>Secound Name</th>
+			</tr>
+			<tr>
+				<td>Mihai</td>
+				<td>Costrea</td>
+			</tr>
+			<tr>
+				<td>Gigel</td>
+				<td>Frone</td>
+			</tr>
+		</table></center>
+<h1>SE VEDE BA, ASTA !?<h1>
+<h1 class="hidden">NU SE VEDE TEXT-U BA</h1>
+<h2 class="hidden">INBIZIBIL</h2>
+<br>
+
+<p class="fix">Some positioned text</p>
+<br>
+
+<img src="lugu.jpg" width=200 height=200 hspace=50 vspace=20></img>
+fewfiweajfwa9efuhiopwaefwafdwqfwefgewfewfweqfwqefwqefweqfwefwefweqfweqf<br>
+dwaidjwaeiufhefoipawehfpoiawefwefweqfqwefwefwqefwqefwqefwqefwqef<br>
+dwaidjwaiudohwaeufwepofhwaeffewqfweqfgwegregewqrgregew<br>
+fewfiweajfwa9efuhiopwaefwafgregerwgewrgerwgewrgewrgerewgergewrgewrgerwgewr<br>
+dwaidjwaeiufhefoipawehfpoiawefgregerwgremkgegklgwgthtrhrehtrhrhrthrthrth<br>
+dwaidjwaiudohwaeufwepofhwaefrhrthrthrthrhrhrerrhrt<br>
+fewfiweajfwa9efuhiopwaefwafrreghdfbgbtrujrtuerhhdfsgdfsgdfs<br>
+dwaidjwaeiufhefoipawehfpoiawefgfgrehyjynbsfbvsdffdgdsf<br>
+dwaidjwaiudohwaeufwepofhwaefreywuytuythfbdfbsbsdfb<br>
+fewfiweajfwa9efuhiopwaefwafbfsdgsdrytusgsargerghfbdf<br>
+dwaidjwaeiufhefoipawehfpoiawefgfdsgshtrhshgegrgws<br>
+dwaidjwaiudohwaeufwepofhwaefrdgsrewgrtghdfhbasbfdhfdhdsfhsdfhdfhsdfhsrhsh<br>
+fewfiweajfwa9efuhiopwaefwafrhsehsfhsfbfbwryhrewyhtyhthwth<br>
+dwaidjwaeiufhefoipawehfpoiawefgrwegregwegwegfdgsdfgdsfg<br>
+dwaidjwaiudohwaeufwepofhwaefrgwegwergwergewryewruyweuerghwe<br>
+fewfiweajfwa9efuhiopwaefwafherwhwerhweryewrtrere<br>
+dwaidjwaeiufhefoipawehfpoiawefgrewgrewgwergerwgerwgerwgerw<br>
+dwaidjwaiudohwaeufwepofhwaefgreywerywergfdgdfsgdfsgfdgds<br>
+<br>
+<img class="thumbnail" src="lugu.jpg"></img>
+<img class="thumbnail" src="lugu.jpg"></img>
+<img class="thumbnail" src="lugu.jpg"></img>
+<br><br><br><br><br><br><br><br>
+
+<center><p class="center">macaroane patrunjel telina leustean telefoane boxe taste imprimanta lugu lugu lugu mouse tastatura click </p></center>
+
+<center><a href="google.ro">LINK</a></center>
+<br>
+
+<p class="two">
+Ardelean nu face nimic<br>
+Pentru ca i-au furat tiganii PC-u<br>
+</p>
+<br>
+Multe text pentru selectat:<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp dddddddddddddddddddddddddddwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp wwwwwwwwwwwwweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr<br>
+<div>
+<div id="l"></div>
+<div id="r"></div>
+<img class="trans" src="ss.jpg" width=200 height=200 ></img>
+</div>
+	</body>
+</html>
